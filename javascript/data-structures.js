@@ -12,8 +12,6 @@ console.log(y, typeof y);
 y.generateDate();
 console.log(y);
 
-
-
 let person = {};
 person.age = 20;
 person.name = {};

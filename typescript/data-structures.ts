@@ -13,13 +13,13 @@ y.generateDate();
 console.log(y);
 
 type Person = {
-	age: number,
-	name: {
-		first: string,
-		last: string,
-		updateFirstName: Function
-	}
-}
+  age: number;
+  name: {
+    first: string;
+    last: string;
+    updateFirstName: Function;
+  };
+};
 
 let person: Person = {
   age: 20,
@@ -27,10 +27,10 @@ let person: Person = {
     first: "John",
     last: "River",
     updateFirstName: function (x: string) {
-		this.first = x
-	}
-  }
-}
+      this.first = x;
+    },
+  },
+};
 console.log(person);
 person.name.updateFirstName("Jonathan");
 console.log(person);
